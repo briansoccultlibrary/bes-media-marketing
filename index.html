@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#f4f0e7">
+<meta name="theme-color" content="#8f3b24">
 <meta name="description" content="BES helps ambitious businesses build visibility, attract the right customers, and grow with thoughtful marketing.">
 <title>BES — Make Your Business Impossible to Ignore</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,12 +22,50 @@ h1{font:500 clamp(54px,7.5vw,100px)/.98 'Playfair Display',serif;letter-spacing:
 footer{background:#142e28;color:white;padding:34px 0}.foot{display:flex;justify-content:space-between;align-items:center;gap:20px}.foot b{font:500 21px 'Playfair Display',serif;letter-spacing:.2em}.foot small{font-size:10px;letter-spacing:.1em;color:#ffffff80}
 @media(max-width:800px){.wrap{width:calc(100% - 40px)}header{height:74px;padding:0 20px}.nav{gap:14px}.nav a:not(.cta){display:none}.nav .cta{padding:11px 13px}.hero{min-height:680px;height:88svh}.hero-content{padding-top:60px}.hero h1{font-size:clamp(49px,12vw,76px)}.intro{padding:82px 0}.intro-grid{grid-template-columns:1fr;gap:25px}.intro-photo{height:340px;margin-top:18px}.services{padding:82px 0}.services-head{display:block}.services-intro{margin-top:20px}.grid{grid-template-columns:1fr 1fr}.service{padding:24px 14px 18px 0;min-height:200px}.service+.service{padding-left:14px}.service:nth-child(3){padding-left:0;border-left:0}.feature{grid-template-columns:1fr}.feature>img{height:350px;min-height:350px}.feature-copy{padding:70px 30px}.closing{padding:90px 0}.foot{flex-direction:column;align-items:flex-start}.side-note{display:none}}
 @media(max-width:460px){.brand b{font-size:23px}.mark{width:35px;height:35px}.grid{grid-template-columns:1fr}.service,.service+.service,.service:nth-child(3){padding:22px 0;border-left:0;min-height:0}.service h3{margin:16px 0 8px}.hero p{font-size:14px}}
+
+/* Autumn edition */
+:root{--ivory:#fff4df;--paper:#fffaf1;--green:#47271f;--gold:#c6532d;--ink:#33251f;--muted:#78675c;--pumpkin:#e77832;--cranberry:#8d3028;--leaf:#738047}
+body{background:var(--ivory)}
+header{border-bottom-color:#fff6e64d}
+.nav .cta{border-color:#f2bb82;background:#8d3028;border-radius:3px}
+.hero{background:#47271f}
+.hero>img{filter:saturate(.93) sepia(.12)}
+.hero:after{background:linear-gradient(90deg,#291713dc,#47271f9c 48%,#54241430),linear-gradient(0deg,#2917137a,transparent 48%)}
+.hero:before{content:"";position:absolute;z-index:1;inset:0;pointer-events:none;background:radial-gradient(ellipse at 83% 24%,#f3a34332,transparent 30%),radial-gradient(ellipse at 10% 90%,#ad482c3a,transparent 34%)}
+.eyebrow,.label{color:#d8894b}
+.button{background:#c6532d;border-radius:3px;box-shadow:0 8px 24px #37170d42}
+.button:hover{background:#a83c26;box-shadow:0 12px 32px #37170d5c}
+.season-tag{display:inline-flex;align-items:center;gap:10px;margin-top:18px;padding:8px 13px;border:1px solid #f4c27a80;border-radius:99px;background:#6c2d227a;color:#ffe2ac;font-size:10px;letter-spacing:.18em;text-transform:uppercase}
+.season-tag span{color:#f6a14d}
+.season-seal{position:absolute;z-index:2;right:9%;top:29%;width:156px;height:156px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border:1px dashed #ffe0a9c9;border-radius:50%;background:#9b3d28e8;color:#fff2d5;box-shadow:0 12px 40px #24100c55;transform:rotate(9deg)}
+.season-seal:before{content:"";position:absolute;inset:7px;border:1px solid #ffe0a955;border-radius:50%}
+.season-seal span{font-size:29px;line-height:1}
+.season-seal b{font:600 13px/1.12 'Playfair Display',serif;text-transform:uppercase;letter-spacing:.08em;margin-top:5px}
+.season-seal i{position:absolute;right:21px;top:20px;color:#ffd37b;font-style:normal;font-size:17px}
+.harvest-ribbon{display:flex;align-items:center;justify-content:center;gap:clamp(14px,4vw,56px);overflow:hidden;padding:16px 20px;background:#bd4e2e;color:#fff3dc;font-size:10px;letter-spacing:.22em;text-transform:uppercase;white-space:nowrap}
+.harvest-ribbon b{color:#f8c66d;font-size:16px}
+.intro{background:var(--paper)}
+.intro h2,.heading{color:#47271f}
+.copy strong{color:#8d3028}
+.intro-photo{border-radius:4px;box-shadow:16px 16px 0 #e8b263}
+.services{background:#47271f}
+.services .heading{color:#fff4df}
+.num,.step b{color:#f0a04c}
+.feature{background:#f0dfbf}
+.feature-copy h2{color:#47271f}
+.feature>img{filter:saturate(.85) sepia(.1)}
+.closing{background:#713321}
+.closing>img{opacity:.34;filter:saturate(1.2)}
+footer{background:#321c19}
+@media(max-width:800px){.season-seal{width:112px;height:112px;right:6%;top:auto;bottom:23%;opacity:.94}.season-seal span{font-size:22px}.season-seal b{font-size:10px}.season-seal i{right:14px;top:14px}.harvest-ribbon{justify-content:flex-start;gap:22px}}
+@media(max-width:460px){.season-seal{display:none}.season-tag{font-size:9px}.intro-photo{box-shadow:9px 9px 0 #e8b263}}
+@media(prefers-reduced-motion:no-preference){.season-seal{animation:seal-float 5s ease-in-out infinite}@keyframes seal-float{0%,100%{transform:rotate(9deg) translateY(0)}50%{transform:rotate(5deg) translateY(-7px)}}}
 </style></head>
 <body>
 <header><a class="brand" href="#home" aria-label="BES home"><svg class="mark" viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M12 13C31 39 49 44 61 49C48 45 31 45 18 38C31 56 49 60 63 61C48 61 36 65 27 73C44 76 57 70 68 62C64 76 55 84 44 91C68 84 82 65 84 42C88 31 93 25 98 21C86 22 78 29 73 39C65 28 43 19 12 13Z" fill="#c5a56c"/></svg><b>BES</b></a><nav class="nav"><a href="#home">Home</a><a href="#services">Services</a><a href="#approach">Our Approach</a><a href="#about">About</a><a class="cta" href="#contact">Let's Talk ↗</a></nav></header>
 <main>
-<section class="hero" id="home"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salem_Oregon_aerial.jpg?width=2000" alt="Contemporary luxury home with expansive glass architecture"><div class="wrap"><div class="hero-content"><div class="eyebrow">A sharper approach to growth</div><h1>Make your business impossible to ignore.</h1><p>Thoughtful strategy. Distinctive creative. Marketing designed to put your business in front of the right people.</p><a class="button" href="#services">Explore what we do <span>↗</span></a></div></div><div class="side-note">Strategy · Visibility · Growth</div></section>
-<section class="intro" id="about"><div class="wrap intro-grid"><div><div class="label">01 / The BES perspective</div><h2>Good businesses deserve to be seen.</h2></div><div><p class="copy">The right marketing does more than get attention. It gives people a reason to remember you, trust you, and take the next step. <strong>BES brings strategy and creative execution together</strong> to help ambitious businesses build a stronger presence and create meaningful momentum.</p><img class="intro-photo" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85" alt="Warm, refined contemporary interior"></div></div></section>
+<section class="hero" id="home"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salem_Oregon_aerial.jpg?width=2000" alt="Contemporary luxury home with expansive glass architecture"><div class="wrap"><div class="hero-content"><div class="eyebrow">A sharper approach to growth</div><div class="season-tag"><span aria-hidden="true">✦</span> The fall edition <span aria-hidden="true">✦</span></div><h1>Make your business impossible to ignore.</h1><p>Thoughtful strategy. Distinctive creative. Marketing designed to put your business in front of the right people—with a little more warmth, color, and personality.</p><a class="button" href="#services">Explore what we do <span>↗</span></a></div></div><div class="season-seal" aria-hidden="true"><span>🍂</span><b>Make<br>some<br>magic</b><i>✦</i></div><div class="side-note">Strategy · Visibility · Growth</div></section>
+<div class="harvest-ribbon" aria-label="Fresh ideas for a standout season"><span>FRESH IDEAS</span><b>✳</b><span>BOLD MOVES</span><b>✳</b><span>GOOD GROWTH</span><b>✳</b><span>FRESH IDEAS</span></div><section class="intro" id="about"><div class="wrap intro-grid"><div><div class="label">01 / The BES perspective <span aria-hidden="true">✦</span></div><h2>Good businesses deserve to be seen.</h2></div><div><p class="copy">The right marketing does more than get attention. It gives people a reason to remember you, trust you, and take the next step. <strong>BES brings strategy and creative execution together</strong> to help ambitious businesses build a stronger presence and create meaningful momentum.</p><img class="intro-photo" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85" alt="Warm, refined contemporary interior"></div></div></section>
 <section class="services" id="services"><div class="wrap"><div class="services-head"><div><div class="label">02 / What we do</div><h2 class="heading">A considered approach.<br>A stronger presence.</h2></div><p class="services-intro">The pieces of your marketing should work together—not compete for attention. We help bring them into focus.</p></div><div class="grid">
 <article class="service"><div class="num">01</div><h3>Digital Advertising</h3><p>Reach the right audience with campaigns built around clear goals and thoughtful execution.</p></article>
 <article class="service"><div class="num">02</div><h3>Brand Development</h3><p>Create a consistent, memorable presence that reflects the value of your business.</p></article>
