@@ -84,9 +84,24 @@ footer{background:#321c19}
 @media(max-width:800px){.season-seal{width:112px;height:112px;right:6%;top:auto;bottom:23%;opacity:.94}.season-seal span{font-size:22px}.season-seal b{font-size:10px}.season-seal i{right:14px;top:14px}.harvest-ribbon{justify-content:flex-start;gap:22px}}
 @media(max-width:460px){.season-seal{display:none}.season-tag{font-size:9px}.intro-photo{box-shadow:9px 9px 0 #e8b263}}
 @media(prefers-reduced-motion:no-preference){.season-seal{animation:seal-float 5s ease-in-out infinite}@keyframes seal-float{0%,100%{transform:rotate(9deg) translateY(0)}50%{transform:rotate(5deg) translateY(-7px)}}}
+
+/* Consultation request form */
+.booking-wrap{max-width:760px;margin:42px auto 0;text-align:left;background:#fffaf1;color:#33251f;padding:clamp(24px,5vw,48px);border:1px solid #e7c99b;border-radius:5px;box-shadow:0 18px 55px #24100c35}
+.booking-form{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.booking-form label{display:block;margin-bottom:8px;color:#47271f;font-size:10px;letter-spacing:.12em;text-transform:uppercase}
+.booking-form input,.booking-form select,.booking-form textarea{width:100%;padding:14px 13px;border:1px solid #ddcdb4;border-radius:3px;background:#fffdf8;color:#33251f;font:14px 'DM Sans',sans-serif;outline:none}
+.booking-form input:focus,.booking-form select:focus,.booking-form textarea:focus{border-color:#c6532d;box-shadow:0 0 0 3px #c6532d1c}
+.booking-form textarea{min-height:112px;resize:vertical}
+.booking-field.full{grid-column:1/-1}
+.booking-form .button{border:0;cursor:pointer;font:600 10px 'DM Sans',sans-serif}
+.booking-note{font-size:11px;line-height:1.7;color:#78675c;margin:18px 0 0}
+.booking-status{min-height:22px;margin:14px 0 0;font-size:13px;line-height:1.6;color:#47271f}
+.booking-status.error{color:#a52d24}
+.booking-honeypot{position:absolute!important;left:-5000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
+@media(max-width:560px){.booking-form{grid-template-columns:1fr;gap:15px}.booking-field.full{grid-column:auto}.booking-wrap{padding:23px 18px}}
 </style></head>
 <body>
-<header><a class="brand" href="#home" aria-label="BESORA Media home"><svg class="mark" viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M12 13C31 39 49 44 61 49C48 45 31 45 18 38C31 56 49 60 63 61C48 61 36 65 27 73C44 76 57 70 68 62C64 76 55 84 44 91C68 84 82 65 84 42C88 31 93 25 98 21C86 22 78 29 73 39C65 28 43 19 12 13Z" fill="#c5a56c"/></svg><b>BESORA</b></a><nav class="nav"><a href="#home">Home</a><a href="#services">Services</a><a href="#approach">Our Approach</a><a href="#about">About</a><a class="cta" href="#contact">Let's Talk ↗</a></nav></header>
+<header><a class="brand" href="#home" aria-label="BESORA Media home"><svg class="mark" viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M12 13C31 39 49 44 61 49C48 45 31 45 18 38C31 56 49 60 63 61C48 61 36 65 27 73C44 76 57 70 68 62C64 76 55 84 44 91C68 84 82 65 84 42C88 31 93 25 98 21C86 22 78 29 73 39C65 28 43 19 12 13Z" fill="#c5a56c"/></svg><b>BESORA</b></a><nav class="nav"><a href="#home">Home</a><a href="#services">Services</a><a href="#approach">Our Approach</a><a href="#about">About</a><a class="cta" href="#contact">Book a Call ↗</a></nav></header>
 <main>
 <section class="hero" id="home"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salem_Oregon_aerial.jpg?width=2000" alt="Contemporary luxury home with expansive glass architecture"><div class="wrap"><div class="hero-content"><div class="eyebrow">A sharper approach to growth</div><div class="season-tag"><span aria-hidden="true">✦</span> The fall edition <span aria-hidden="true">✦</span></div><h1>Make your business impossible to ignore.</h1><p>Thoughtful strategy. Distinctive creative. Marketing designed to put your business in front of the right people—with a little more warmth, color, and personality.</p><a class="button" href="#services">Explore what we do <span>↗</span></a></div></div><div class="leaf-shower" aria-hidden="true"><span>🍁</span><span>🍂</span><span>🍃</span><span>🍁</span><span>🍂</span><span>🍃</span></div><div class="turkey-buddy" aria-hidden="true"><div class="turkey-note">Gobble up<br>good ideas!</div><svg viewBox="0 0 180 190" role="presentation"><g class="tail-feathers"><path d="M62 82C20 86 13 48 27 31c23 2 39 19 43 45Z" fill="#c9442d" stroke="#6b2b20" stroke-width="3"/><path d="M72 75C48 43 64 15 84 10c18 14 20 37 8 66Z" fill="#ed9a35" stroke="#6b2b20" stroke-width="3"/><path d="M82 77C76 38 101 20 122 23c13 20 6 43-14 62Z" fill="#f2c75e" stroke="#6b2b20" stroke-width="3"/><path d="M94 85c10-36 39-42 57-29 5 24-9 42-39 50Z" fill="#9d5033" stroke="#6b2b20" stroke-width="3"/></g><ellipse cx="89" cy="122" rx="39" ry="48" fill="#a95736" stroke="#6b2b20" stroke-width="4"/><ellipse cx="89" cy="140" rx="25" ry="27" fill="#f6dba3"/><circle cx="89" cy="72" r="28" fill="#a95736" stroke="#6b2b20" stroke-width="4"/><circle cx="80" cy="69" r="4" fill="#2d211b"/><circle cx="98" cy="69" r="4" fill="#2d211b"/><path d="m85 78 7 2-7 8-6-8Z" fill="#f0a32c" stroke="#9b5225" stroke-width="2"/><path d="M107 78c9 5 8 14 2 18-8 1-10-6-7-11Z" fill="#d64c3c"/><path d="m72 165-5 13m27-13 5 13m-33 0h12m15 0h12" fill="none" stroke="#e99b32" stroke-width="5" stroke-linecap="round"/><path d="m62 103-16 11 18 6m48-16 15 11-17 6" fill="#a95736" stroke="#6b2b20" stroke-width="3" stroke-linejoin="round"/></svg></div><div class="season-seal" aria-hidden="true"><span>🍂</span><b>Make<br>some<br>magic</b><i>✦</i></div><div class="side-note">Strategy · Visibility · Growth</div></section>
 <div class="harvest-ribbon" aria-label="Fresh ideas for a standout season"><span>FRESH IDEAS</span><b>✳</b><span>BOLD MOVES</span><b>✳</b><span>GOOD GROWTH</span><b>✳</b><span>FRESH IDEAS</span></div><section class="intro" id="about"><div class="wrap intro-grid"><div><div class="label">01 / The BESORA perspective <span aria-hidden="true">✦</span></div><h2>Good businesses deserve to be seen.</h2></div><div><p class="copy">Proudly based in Salem, Oregon, BESORA Media is here to help good small businesses get noticed, reach the people who need what they offer, and grow with confidence. We believe hardworking local businesses deserve marketing that reflects the quality of what they do. <strong>Through thoughtful strategy and creative execution</strong>, we help turn that potential into real momentum.</p><figure class="intro-figure"><img class="intro-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Riverfront_Park_View_-_Flickr_-_docoverachiever.jpg?width=1600" alt="Salem’s Center and Marion Street bridges crossing the Willamette River as morning fog clears"><figcaption>Riverfront Park, Salem, Oregon · Photo by Sheila Sund · <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener">CC BY 2.0</a></figcaption></figure></div></div></section>
@@ -97,9 +112,47 @@ footer{background:#321c19}
 <article class="service"><div class="num">04</div><h3>Marketing Strategy</h3><p>Build a clearer direction with a practical plan for reaching your next stage of growth.</p></article>
 </div></div></section>
 <section class="feature" id="approach"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salem_Oregon_downtown.JPG?width=1600" alt="Salem, Oregon downtown streetscape"><div class="feature-copy"><div class="label">03 / The BESORA approach</div><h2>Clarity first.<br>Momentum next.</h2><p>We start by understanding your business, your audience, and what progress should look like. Then we shape a focused plan, put it into action, and use what we learn to make the work stronger.</p><div class="steps"><div class="step"><b>01</b> Discover what makes your business different</div><div class="step"><b>02</b> Build a strategy around your goals</div><div class="step"><b>03</b> Execute, measure, and refine</div></div></div></section>
-<section class="closing" id="contact"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Riverfront_Park_View_-_Flickr_-_docoverachiever.jpg?width=2000" alt=""><div class="wrap"><div class="label">The next move starts here</div><h2>Let's build something that stands out.</h2><p>Tell us where you want to take your business. We'll start with a conversation about what could be possible.</p><p style="margin:0 auto 28px;font-size:14px;letter-spacing:.04em"><a href="mailto:besmedia.marketing@gmail.com?subject=Let%27s%20talk%20about%20my%20business" style="color:#e2c998;border-bottom:1px solid #b18a4d;padding-bottom:5px">besmedia.marketing@gmail.com</a></p>
-<a class="button" href="mailto:besmedia.marketing@gmail.com?subject=Let's%20talk%20about%20my%20business">Start a conversation <span>↗</span></a>
+
+<section class="closing" id="contact"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Riverfront_Park_View_-_Flickr_-_docoverachiever.jpg?width=2000" alt=""><div class="wrap"><div class="label">The next move starts here</div><h2>Let's talk about what's next for your business.</h2><p>Request a free consultation. Tell us a little about your business and choose a date and time that work for you. We'll review your request and email you to confirm.</p>
+<div class="booking-wrap">
+<form class="booking-form" id="consultation-form">
+<input type="hidden" name="_subject" value="New BESORA Media consultation request">
+<input type="hidden" name="_template" value="table">
+<div class="booking-honeypot" aria-hidden="true"><label>Leave this field empty<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+<div class="booking-field"><label for="client-name">Full name *</label><input id="client-name" name="Full name" type="text" autocomplete="name" required placeholder="Your name"></div>
+<div class="booking-field"><label for="business-name">Business name *</label><input id="business-name" name="Business name" type="text" required placeholder="Your business"></div>
+<div class="booking-field"><label for="client-email">Email address *</label><input id="client-email" name="Email" type="email" autocomplete="email" required placeholder="you@example.com"></div>
+<div class="booking-field"><label for="client-phone">Phone number</label><input id="client-phone" name="Phone" type="tel" autocomplete="tel" placeholder="(555) 555-5555"></div>
+<div class="booking-field"><label for="service-interest">What can we help with? *</label><select id="service-interest" name="Interested in" required><option value="" disabled selected>Select a service</option><option>Digital advertising</option><option>Brand development</option><option>Lead generation</option><option>Website design</option><option>Marketing strategy</option><option>Not sure yet</option></select></div>
+<div class="booking-field"><label for="preferred-date">Preferred date *</label><input id="preferred-date" name="Preferred date" type="date" required></div>
+<div class="booking-field"><label for="preferred-time">Preferred time *</label><select id="preferred-time" name="Preferred time" required><option value="" disabled selected>Choose a time</option><option>9:00 AM</option><option>10:00 AM</option><option>11:00 AM</option><option>12:00 PM</option><option>1:00 PM</option><option>2:00 PM</option><option>3:00 PM</option><option>4:00 PM</option><option>5:00 PM</option></select></div>
+<div class="booking-field full"><label for="client-message">Tell us a little about your business</label><textarea id="client-message" name="Message" placeholder="What do you do, and what would you like help with?"></textarea></div>
+<div class="booking-field full"><button class="button" id="booking-submit" type="submit">Request my consultation <span>↗</span></button><p class="booking-note">Submitting this form sends a consultation request, not a confirmed appointment. We'll contact you by email to confirm the date and time. Please use Pacific Time when choosing a time.</p><p class="booking-status" id="booking-status" role="status" aria-live="polite"></p></div>
+</form>
+</div>
 </div></section>
 </main><footer><div class="wrap foot"><b>BESORA</b><small>MEDIA</small><small>© <span id="year"></span> BESORA MEDIA. All rights reserved.</small></div></footer>
-<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const dateField=document.getElementById('preferred-date');
+if(dateField){const today=new Date();const localToday=new Date(today.getTime()-today.getTimezoneOffset()*60000).toISOString().split('T')[0];dateField.min=localToday;}
+const consultationForm=document.getElementById('consultation-form');
+if(consultationForm){consultationForm.addEventListener('submit',async function(event){
+ event.preventDefault();
+ const status=document.getElementById('booking-status');
+ const submit=document.getElementById('booking-submit');
+ status.className='booking-status';status.textContent='Sending your request…';submit.disabled=true;submit.style.opacity='.65';
+ try{
+  const response=await fetch('https://formsubmit.co/ajax/besmedia.marketing@gmail.com',{method:'POST',body:new FormData(consultationForm),headers:{'Accept':'application/json'}});
+  const result=await response.json();
+  if(!response.ok||result.success===false)throw new Error(result.message||'Unable to send your request.');
+  consultationForm.reset();
+  status.textContent='Thanks! Your consultation request has been sent. We’ll review your preferred time and email you to confirm.';
+ }catch(error){
+  status.className='booking-status error';
+  status.textContent='Sorry, we couldn’t send that just now. Please try again, or email besmedia.marketing@gmail.com directly.';
+ }finally{submit.disabled=false;submit.style.opacity='1';}
+});}
+</script>
 </body></html>
