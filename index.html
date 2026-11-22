@@ -101,6 +101,16 @@ footer{background:#321c19}
 .booking-status.error{color:#a52d24}
 .booking-honeypot{position:absolute!important;left:-5000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
 @media(max-width:560px){.booking-form{grid-template-columns:1fr;gap:15px}.booking-field.full{grid-column:auto}.booking-wrap{padding:23px 18px}}
+
+/* Keep the Portfolio destination visible in the compact mobile header. */
+@media(max-width:800px){
+  .nav a[href="portfolio.html"]{display:inline-flex;align-items:center;white-space:nowrap}
+}
+@media(max-width:460px){
+  .nav{gap:9px;font-size:9px}
+  .nav .cta{padding:9px 10px;white-space:nowrap}
+  .nav a[href="portfolio.html"]{letter-spacing:.08em}
+}
 </style></head>
 <body>
 <header><a class="brand" href="#home" aria-label="BESORA Media home"><svg class="mark" viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M12 13C31 39 49 44 61 49C48 45 31 45 18 38C31 56 49 60 63 61C48 61 36 65 27 73C44 76 57 70 68 62C64 76 55 84 44 91C68 84 82 65 84 42C88 31 93 25 98 21C86 22 78 29 73 39C65 28 43 19 12 13Z" fill="#c5a56c"/></svg><b>BESORA</b></a><nav class="nav"><a href="#home">Home</a><a href="#services">Services</a><a href="#approach">Our Approach</a><a href="#about">About</a><a href="portfolio.html">Portfolio</a><a class="cta" href="#contact">Book a Call ↗</a></nav></header>
