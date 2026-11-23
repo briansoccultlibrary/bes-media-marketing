@@ -138,12 +138,51 @@ h1{font-size:clamp(64px,8vw,112px);line-height:.94;letter-spacing:-.045em;max-wi
 .feature-copy h2{color:var(--green)}
 .closing{background:#1e3029}
 footer{background:#172820}
-.season-tag,.season-seal,.leaf-shower,.turkey-buddy,.harvest-ribbon{display:none!important}
+/* Thanksgiving and fall details are intentionally visible. */
 .hero h1{text-shadow:0 3px 24px #101d1866}
 .service h3{font-size:27px}
 .copy,.services-intro,.feature-copy p,.closing p{font-family:'Manrope',sans-serif}
 @media(max-width:800px){h1{font-size:clamp(54px,12vw,82px)}}
 @media(max-width:460px){h1{font-size:clamp(48px,12.5vw,66px)}.intro-photo{box-shadow:8px 8px 0 #e9e3d7}}
+
+
+/* Thanksgiving edition — warm, festive, and editorial */
+:root{--ivory:#fff4e4;--paper:#fffaf2;--green:#563326;--gold:#c46b35;--ink:#352820;--muted:#806e60;--pumpkin:#d97835;--cranberry:#8f3c32;--leaf:#7b8550}
+body{background:var(--ivory);color:var(--ink)}
+.hero{background:#563326}
+.hero:after{background:linear-gradient(90deg,#241611dc,#39231ab0 52%,#39231a35),linear-gradient(0deg,#24161170,transparent 52%)}
+.hero:before{display:block!important;opacity:.75}
+.hero>img{filter:saturate(.88) sepia(.08);transform:scale(1.015)}
+.eyebrow,.label{color:#e8c69a}
+.label{color:#ad6138}
+.button{background:#b85c30;border-color:#b85c30;color:#fffaf2}
+.button:hover{background:#98472a;border-color:#98472a}
+.intro{background:var(--paper)}
+.intro h2,.heading,.feature-copy h2{color:#563326}
+.intro-photo{box-shadow:12px 12px 0 #ead8c3}
+.services{background:#563326}
+.services .heading{color:#fff4e4}
+.num,.step b{color:#e8b77f}
+.feature{background:#f0e3d2}
+.feature-copy h2{color:#563326}
+.closing{background:#3d281f}
+footer{background:#2d201a}
+.season-tag{display:inline-flex!important;align-items:center;gap:10px;margin:18px 0 12px;padding:9px 15px;border:1px solid #e9c99c;color:#ffdfb4;background:#5b3023a8;font:700 10px 'Manrope',sans-serif;letter-spacing:.2em;text-transform:uppercase}
+.season-seal{display:flex!important;border:1px solid #f0d3a8;background:#f5e4c9;color:#6b3b27;box-shadow:0 10px 30px #21150e38}
+.season-seal b{font-family:'DM Serif Display',serif;font-weight:400}
+.leaf-shower{display:block!important}
+.turkey-buddy{display:block!important;filter:drop-shadow(0 10px 12px #24150d40)}
+.harvest-ribbon{display:flex!important;background:#8c402b;color:#fff0d9;border-top:1px solid #c78b5c;border-bottom:1px solid #c78b5c;letter-spacing:.2em}
+.harvest-ribbon b{color:#edbd7c}
+.hero h1{text-shadow:0 3px 24px #24150e80}
+.service h3{font-size:27px}
+.copy,.services-intro,.feature-copy p,.closing p{font-family:'Manrope',sans-serif}
+@keyframes autumn-drift{0%{transform:translate3d(0,-12px,0) rotate(-8deg)}50%{transform:translate3d(18px,18px,0) rotate(16deg)}100%{transform:translate3d(-8px,44px,0) rotate(-10deg)}}
+.leaf-shower span{animation:autumn-drift 8s ease-in-out infinite alternate}
+.leaf-shower span:nth-child(2n){animation-delay:-3s;animation-duration:10s}
+.leaf-shower span:nth-child(3n){animation-delay:-5s;animation-duration:9s}
+@media(max-width:800px){h1{font-size:clamp(54px,12vw,82px)}}
+@media(max-width:460px){h1{font-size:clamp(48px,12.5vw,66px)}.intro-photo{box-shadow:8px 8px 0 #ead8c3}}
 
 </style></head>
 <body>
