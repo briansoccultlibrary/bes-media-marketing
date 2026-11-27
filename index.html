@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#8f3b24">
+<meta name="theme-color" content="#183b34">
 <meta name="description" content="BESORA Media helps ambitious businesses build visibility, attract the right customers, and grow with thoughtful marketing.">
 <title>BESORA Media — Make Your Business Impossible to Ignore</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,68 +22,6 @@ h1{font:500 clamp(54px,7.5vw,100px)/.98 'DM Serif Display',serif;letter-spacing:
 footer{background:#142e28;color:white;padding:34px 0}.foot{display:flex;justify-content:space-between;align-items:center;gap:20px}.foot b{font:500 21px 'DM Serif Display',serif;letter-spacing:.2em}.foot small{font-size:10px;letter-spacing:.1em;color:#ffffff80}
 @media(max-width:800px){.wrap{width:calc(100% - 40px)}header{height:74px;padding:0 20px}.nav{gap:14px}.nav a:not(.cta){display:none}.nav .cta{padding:11px 13px}.hero{min-height:680px;height:88svh}.hero-content{padding-top:60px}.hero h1{font-size:clamp(49px,12vw,76px)}.intro{padding:82px 0}.intro-grid{grid-template-columns:1fr;gap:25px}.intro-figure{margin-top:18px}.intro-photo{height:340px}.services{padding:82px 0}.services-head{display:block}.services-intro{margin-top:20px}.grid{grid-template-columns:1fr 1fr}.service{padding:24px 14px 18px 0;min-height:200px}.service+.service{padding-left:14px}.service:nth-child(3){padding-left:0;border-left:0}.feature{grid-template-columns:1fr}.feature>img{height:350px;min-height:350px}.feature-copy{padding:70px 30px}.closing{padding:90px 0}.foot{flex-direction:column;align-items:flex-start}.side-note{display:none}}
 @media(max-width:460px){.brand b{font-size:21px;letter-spacing:.1em}.brand{gap:8px}.mark{width:35px;height:35px}.grid{grid-template-columns:1fr}.service,.service+.service,.service:nth-child(3){padding:22px 0;border-left:0;min-height:0}.service h3{margin:16px 0 8px}.hero p{font-size:14px}}
-
-/* Extra festive turkey and falling leaves */
-.hero{isolation:isolate}
-.leaf-shower{position:absolute;z-index:2;inset:0;overflow:hidden;pointer-events:none}
-.leaf-shower span{position:absolute;top:-12%;font-size:clamp(22px,3vw,38px);filter:drop-shadow(0 4px 5px #25120d50);animation:leaf-drift 12s linear infinite}
-.leaf-shower span:nth-child(1){left:9%;animation-delay:-7s;animation-duration:14s}
-.leaf-shower span:nth-child(2){left:31%;animation-delay:-2s;animation-duration:17s}
-.leaf-shower span:nth-child(3){left:52%;animation-delay:-10s;animation-duration:15s}
-.leaf-shower span:nth-child(4){left:71%;animation-delay:-4s;animation-duration:18s}
-.leaf-shower span:nth-child(5){left:89%;animation-delay:-12s;animation-duration:13s}
-.leaf-shower span:nth-child(6){left:42%;animation-delay:-6s;animation-duration:19s}
-@keyframes leaf-drift{0%{transform:translate3d(0,-10vh,0) rotate(0)}50%{transform:translate3d(34px,48vh,0) rotate(180deg)}100%{transform:translate3d(-24px,112vh,0) rotate(390deg)}}
-.turkey-buddy{position:absolute;z-index:3;right:7%;bottom:9%;width:174px;padding:8px 9px 0;background:#fff2d8;border:3px solid #713321;border-radius:48% 48% 42% 42%;box-shadow:7px 9px 0 #e5823a,0 15px 40px #24100c66;transform:rotate(6deg);animation:turkey-bob 3s ease-in-out infinite}
-.turkey-buddy svg{display:block;width:100%;height:auto;overflow:visible}
-.turkey-note{position:absolute;right:78%;top:7px;padding:10px 13px;border:2px solid #713321;border-radius:14px 14px 3px 14px;background:#fffaf1;color:#713321;font:700 12px/1.15 'Manrope',sans-serif;text-align:center;white-space:nowrap;transform:rotate(-8deg);box-shadow:3px 4px 0 #e8b263}
-@keyframes turkey-bob{0%,100%{transform:rotate(6deg) translateY(0)}50%{transform:rotate(2deg) translateY(-8px)}}
-.hero h1{text-shadow:0 4px 24px #170a08a6}
-.season-tag{background:#9e3c25;border:2px solid #ffc467;box-shadow:0 0 22px #ffad4c88,0 5px 16px #170a0855}
-.harvest-ribbon{background:linear-gradient(100deg,#8d3028,#de682d 48%,#8d3028);box-shadow:inset 0 3px 0 #ffd477,inset 0 -3px 0 #ffd477}
-.harvest-ribbon b{animation:twinkle 1.8s ease-in-out infinite alternate}
-@keyframes twinkle{from{transform:scale(.85) rotate(-12deg)}to{transform:scale(1.2) rotate(12deg)}}
-.button{background:linear-gradient(110deg,#be3f28,#ef8a35);border:1px solid #ffd27b}
-@media(max-width:800px){.turkey-buddy{width:128px;right:5%;bottom:7%}.turkey-note{right:72%;font-size:10px}.leaf-shower span{font-size:24px}}
-@media(max-width:520px){.turkey-buddy{width:102px;right:6%;bottom:6%}.turkey-note{right:68%;top:0;font-size:9px;padding:7px 9px}.hero-content{max-width:90%}}
-@media(prefers-reduced-motion:reduce){.leaf-shower span,.turkey-buddy,.harvest-ribbon b{animation:none!important}.leaf-shower{display:none}}
-/* Autumn edition */
-:root{--ivory:#fff4df;--paper:#fffaf1;--green:#47271f;--gold:#c6532d;--ink:#33251f;--muted:#78675c;--pumpkin:#e77832;--cranberry:#8d3028;--leaf:#738047}
-body{background:var(--ivory)}
-header{border-bottom-color:#fff6e64d}
-.nav .cta{border-color:#f2bb82;background:#8d3028;border-radius:3px}
-.hero{background:#47271f}
-.hero>img{filter:saturate(.93) sepia(.12)}
-.hero:after{background:linear-gradient(90deg,#291713dc,#47271f9c 48%,#54241430),linear-gradient(0deg,#2917137a,transparent 48%)}
-.hero:before{content:"";position:absolute;z-index:1;inset:0;pointer-events:none;background:radial-gradient(ellipse at 83% 24%,#f3a34332,transparent 30%),radial-gradient(ellipse at 10% 90%,#ad482c3a,transparent 34%)}
-.eyebrow,.label{color:#d8894b}
-.button{background:#c6532d;border-radius:3px;box-shadow:0 8px 24px #37170d42}
-.button:hover{background:#a83c26;box-shadow:0 12px 32px #37170d5c}
-.season-tag{display:inline-flex;align-items:center;gap:10px;margin-top:18px;padding:8px 13px;border:1px solid #f4c27a80;border-radius:99px;background:#6c2d227a;color:#ffe2ac;font-size:10px;letter-spacing:.18em;text-transform:uppercase}
-.season-tag span{color:#f6a14d}
-.season-seal{position:absolute;z-index:2;right:9%;top:29%;width:156px;height:156px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border:1px dashed #ffe0a9c9;border-radius:50%;background:#9b3d28e8;color:#fff2d5;box-shadow:0 12px 40px #24100c55;transform:rotate(9deg)}
-.season-seal:before{content:"";position:absolute;inset:7px;border:1px solid #ffe0a955;border-radius:50%}
-.season-seal span{font-size:29px;line-height:1}
-.season-seal b{font:600 13px/1.12 'DM Serif Display',serif;text-transform:uppercase;letter-spacing:.08em;margin-top:5px}
-.season-seal i{position:absolute;right:21px;top:20px;color:#ffd37b;font-style:normal;font-size:17px}
-.harvest-ribbon{display:flex;align-items:center;justify-content:center;gap:clamp(14px,4vw,56px);overflow:hidden;padding:16px 20px;background:#bd4e2e;color:#fff3dc;font-size:10px;letter-spacing:.22em;text-transform:uppercase;white-space:nowrap}
-.harvest-ribbon b{color:#f8c66d;font-size:16px}
-.intro{background:var(--paper)}
-.intro h2,.heading{color:#47271f}
-.copy strong{color:#8d3028}
-.intro-photo{border-radius:4px;box-shadow:16px 16px 0 #e8b263}
-.services{background:#47271f}
-.services .heading{color:#fff4df}
-.num,.step b{color:#f0a04c}
-.feature{background:#f0dfbf}
-.feature-copy h2{color:#47271f}
-.feature>img{filter:saturate(.85) sepia(.1)}
-.closing{background:#713321}
-.closing>img{opacity:.34;filter:saturate(1.2)}
-footer{background:#321c19}
-@media(max-width:800px){.season-seal{width:112px;height:112px;right:6%;top:auto;bottom:23%;opacity:.94}.season-seal span{font-size:22px}.season-seal b{font-size:10px}.season-seal i{right:14px;top:14px}.harvest-ribbon{justify-content:flex-start;gap:22px}}
-@media(max-width:460px){.season-seal{display:none}.season-tag{font-size:9px}.intro-photo{box-shadow:9px 9px 0 #e8b263}}
-@media(prefers-reduced-motion:no-preference){.season-seal{animation:seal-float 5s ease-in-out infinite}@keyframes seal-float{0%,100%{transform:rotate(9deg) translateY(0)}50%{transform:rotate(5deg) translateY(-7px)}}}
 
 /* Consultation request form */
 .booking-wrap{max-width:760px;margin:42px auto 0;text-align:left;background:#fffaf1;color:#33251f;padding:clamp(24px,5vw,48px);border:1px solid #e7c99b;border-radius:5px;box-shadow:0 18px 55px #24100c35}
@@ -138,7 +76,7 @@ h1{font-size:clamp(64px,8vw,112px);line-height:.94;letter-spacing:-.045em;max-wi
 .feature-copy h2{color:var(--green)}
 .closing{background:#1e3029}
 footer{background:#172820}
-/* Thanksgiving and fall details are intentionally visible. */
+
 .hero h1{text-shadow:0 3px 24px #101d1866}
 .service h3{font-size:27px}
 .copy,.services-intro,.feature-copy p,.closing p{font-family:'Manrope',sans-serif}
@@ -146,64 +84,66 @@ footer{background:#172820}
 @media(max-width:460px){h1{font-size:clamp(48px,12.5vw,66px)}.intro-photo{box-shadow:8px 8px 0 #e9e3d7}}
 
 
-/* Thanksgiving edition — warm, festive, and editorial */
-:root{--ivory:#fff4e4;--paper:#fffaf2;--green:#563326;--gold:#c46b35;--ink:#352820;--muted:#806e60;--pumpkin:#d97835;--cranberry:#8f3c32;--leaf:#7b8550}
+
+/* BESORA Christmas edition — elegant winter details */
+:root{--ivory:#f5f1e8;--paper:#fbf9f4;--green:#183b34;--gold:#b69a65;--ink:#252622;--muted:#77766f;--cranberry:#8f3440}
 body{background:var(--ivory);color:var(--ink)}
-.hero{background:#563326}
-.hero:after{background:linear-gradient(90deg,#241611dc,#39231ab0 52%,#39231a35),linear-gradient(0deg,#24161170,transparent 52%)}
-.hero:before{display:block!important;opacity:.75}
-.hero>img{filter:saturate(.88) sepia(.08);transform:scale(1.015)}
-.eyebrow,.label{color:#e8c69a}
-.label{color:#ad6138}
-.button{background:#b85c30;border-color:#b85c30;color:#fffaf2}
-.button:hover{background:#98472a;border-color:#98472a}
+header{border-bottom-color:#ffffff55}
+.hero{background:#183b34;isolation:isolate}
+.hero:after{background:linear-gradient(90deg,#071b16dc,#102d25a8 52%,#102d2530),linear-gradient(0deg,#071b1670,transparent 52%)}
+.hero:before{content:"";position:absolute;z-index:1;inset:0;pointer-events:none;background:radial-gradient(ellipse at 82% 22%,#d8c49a24,transparent 30%),radial-gradient(ellipse at 12% 88%,#ffffff12,transparent 35%)}
+.hero>img{filter:saturate(.72);transform:scale(1.015)}
+.eyebrow,.label{color:#d6c29a}
+.label{color:var(--gold)}
+.nav .cta{border:1px solid #ffffffa0;background:#8f3440;color:#fff;border-radius:0}
+.nav .cta:hover{background:#742b35}
+.button{background:#8f3440;border:1px solid #a94a55;color:#fffaf2;box-shadow:0 8px 22px #10201830}
+.button:hover{background:#742b35;border-color:#742b35;box-shadow:0 10px 28px #10201845}
 .intro{background:var(--paper)}
-.intro h2,.heading,.feature-copy h2{color:#563326}
-.intro-photo{box-shadow:12px 12px 0 #ead8c3}
-.services{background:#563326}
-.services .heading{color:#fff4e4}
-.num,.step b{color:#e8b77f}
-.feature{background:#f0e3d2}
-.feature-copy h2{color:#563326}
-.closing{background:#3d281f}
-footer{background:#2d201a}
-.season-tag{display:inline-flex!important;align-items:center;gap:10px;margin:18px 0 12px;padding:9px 15px;border:1px solid #e9c99c;color:#ffdfb4;background:#5b3023a8;font:700 10px 'Manrope',sans-serif;letter-spacing:.2em;text-transform:uppercase}
-.season-seal{display:flex!important;border:1px solid #f0d3a8;background:#f5e4c9;color:#6b3b27;box-shadow:0 10px 30px #21150e38}
-.season-seal b{font-family:'DM Serif Display',serif;font-weight:400}
-.leaf-shower{display:block!important}
-.turkey-buddy{display:block!important;filter:drop-shadow(0 10px 12px #24150d40)}
-.harvest-ribbon{display:flex!important;background:#8c402b;color:#fff0d9;border-top:1px solid #c78b5c;border-bottom:1px solid #c78b5c;letter-spacing:.2em}
-.harvest-ribbon b{color:#edbd7c}
-.hero h1{text-shadow:0 3px 24px #24150e80}
-.service h3{font-size:27px}
-.copy,.services-intro,.feature-copy p,.closing p{font-family:'Manrope',sans-serif}
-@keyframes autumn-drift{0%{transform:translate3d(0,-12px,0) rotate(-8deg)}50%{transform:translate3d(18px,18px,0) rotate(16deg)}100%{transform:translate3d(-8px,44px,0) rotate(-10deg)}}
-.leaf-shower span{animation:autumn-drift 8s ease-in-out infinite alternate}
-.leaf-shower span:nth-child(2n){animation-delay:-3s;animation-duration:10s}
-.leaf-shower span:nth-child(3n){animation-delay:-5s;animation-duration:9s}
-@media(max-width:800px){h1{font-size:clamp(54px,12vw,82px)}}
-@media(max-width:460px){h1{font-size:clamp(48px,12.5vw,66px)}.intro-photo{box-shadow:8px 8px 0 #ead8c3}}
-
-
-/* Final layout fix: clear hero copy and make the falling leaves unmistakable */
-.season-seal{display:none!important}
-.leaf-shower{display:block!important;position:absolute;z-index:4;inset:0;overflow:hidden;pointer-events:none}
-.leaf-shower span{position:absolute;top:-12%;display:block;opacity:.96;font-size:clamp(28px,3.5vw,44px);filter:drop-shadow(0 3px 5px #24140d80);animation:leaf-drift 11s linear infinite!important}
-.leaf-shower span:nth-child(1){left:7%;animation-delay:-8s!important;animation-duration:13s!important}
-.leaf-shower span:nth-child(2){left:25%;animation-delay:-3s!important;animation-duration:16s!important}
-.leaf-shower span:nth-child(3){left:49%;animation-delay:-10s!important;animation-duration:14s!important}
-.leaf-shower span:nth-child(4){left:68%;animation-delay:-5s!important;animation-duration:17s!important}
-.leaf-shower span:nth-child(5){left:88%;animation-delay:-12s!important;animation-duration:12s!important}
-.leaf-shower span:nth-child(6){left:39%;animation-delay:-7s!important;animation-duration:18s!important}
-.hero-content{z-index:5}
-@media(max-width:800px){.leaf-shower span{font-size:27px}.hero-content{z-index:5}}
+.intro h2,.heading,.feature-copy h2{color:var(--green)}
+.intro-photo{box-shadow:12px 12px 0 #e9e3d7}
+.services{background:#183b34}
+.services .heading{color:var(--ivory)}
+.num,.step b{color:#d8c49a}
+.feature{background:#ece8df}
+.feature-copy h2{color:var(--green)}
+.closing{background:#102d25}
+footer{background:#10271f}
+.season-tag{display:inline-flex;align-items:center;gap:10px;margin:18px 0 12px;padding:9px 15px;border:1px solid #d6c29a;color:#f2e8d1;background:#183b34c9;font:700 10px 'Manrope',sans-serif;letter-spacing:.2em;text-transform:uppercase}
+.season-tag span{color:#e6c98b}
+.hero h1{text-shadow:0 3px 24px #071b1680}
+.leaf-shower.snowfall{display:block;position:absolute;z-index:4;inset:0;overflow:hidden;pointer-events:none}
+.snowfall span{position:absolute;top:-12%;display:block;color:#fff;font-size:clamp(18px,2.5vw,32px);line-height:1;text-shadow:0 2px 9px #dbe8e8aa;opacity:.9;animation:snowfall-drift 13s linear infinite}
+.snowfall span:nth-child(1){left:7%;animation-delay:-8s;animation-duration:14s}
+.snowfall span:nth-child(2){left:20%;animation-delay:-3s;animation-duration:17s;font-size:22px}
+.snowfall span:nth-child(3){left:35%;animation-delay:-11s;animation-duration:15s}
+.snowfall span:nth-child(4){left:51%;animation-delay:-5s;animation-duration:18s;font-size:25px}
+.snowfall span:nth-child(5){left:67%;animation-delay:-13s;animation-duration:16s}
+.snowfall span:nth-child(6){left:82%;animation-delay:-7s;animation-duration:19s;font-size:21px}
+.snowfall span:nth-child(7){left:93%;animation-delay:-10s;animation-duration:15s;font-size:16px}
+.snowfall span:nth-child(8){left:43%;animation-delay:-2s;animation-duration:20s;font-size:18px}
+@keyframes snowfall-drift{0%{transform:translate3d(0,-10vh,0) rotate(0);opacity:0}10%{opacity:.9}50%{transform:translate3d(28px,48vh,0) rotate(150deg)}90%{opacity:.8}100%{transform:translate3d(-22px,112vh,0) rotate(300deg);opacity:0}}
+.santa-buddy{position:absolute;z-index:3;right:7%;bottom:8%;width:112px;height:112px;display:grid;place-items:center;border:1px solid #e4d2ac;border-radius:50%;background:#f8f3e9;box-shadow:0 12px 35px #06181170;animation:santa-float 4s ease-in-out infinite}
+.santa-face{font-size:66px;line-height:1;filter:drop-shadow(0 4px 3px #30201430)}
+.santa-note{position:absolute;right:78%;top:2px;padding:9px 12px;border:1px solid #d7c39a;background:#fffaf1;color:#183b34;font:700 10px/1.2 'Manrope',sans-serif;text-align:center;white-space:nowrap;letter-spacing:.05em;box-shadow:0 4px 14px #06181124}
+@keyframes santa-float{0%,100%{transform:translateY(0) rotate(3deg)}50%{transform:translateY(-7px) rotate(-2deg)}}
+.harvest-ribbon.christmas-ribbon{display:flex;align-items:center;justify-content:center;gap:clamp(14px,4vw,56px);overflow:hidden;padding:16px 20px;background:#8f3440;color:#fff7e9;border-top:1px solid #c69b72;border-bottom:1px solid #c69b72;font-size:10px;letter-spacing:.22em;text-transform:uppercase;white-space:nowrap}
+.christmas-ribbon b{color:#e8d3a7;font-size:16px}
+.booking-wrap{background:#fbf9f4;border-color:#e4dccb;color:#252622}
+.booking-form label{color:#183b34}
+.booking-form input,.booking-form select,.booking-form textarea{border-color:#ddd8cc;background:#fffefa;color:#252622}
+.booking-form input:focus,.booking-form select:focus,.booking-form textarea:focus{border-color:#8f3440;box-shadow:0 0 0 3px #8f34401c}
+.booking-status{color:#183b34}
+@media(max-width:800px){.santa-buddy{width:88px;height:88px;right:5%;bottom:6%}.santa-face{font-size:52px}.santa-note{right:72%;font-size:9px}.snowfall span{font-size:23px}.hero-content{z-index:5}.christmas-ribbon{justify-content:flex-start;gap:22px}}
+@media(max-width:520px){.santa-buddy{width:70px;height:70px;right:5%;bottom:5%}.santa-face{font-size:42px}.santa-note{right:65%;top:0;font-size:8px;padding:7px 9px}.hero-content{max-width:90%}}
+@media(prefers-reduced-motion:reduce){.snowfall span,.santa-buddy{animation:none!important}.snowfall{display:none!important}}
 
 </style></head>
 <body>
 <header><a class="brand" href="#home" aria-label="BESORA Media home"><svg class="mark" viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M12 13C31 39 49 44 61 49C48 45 31 45 18 38C31 56 49 60 63 61C48 61 36 65 27 73C44 76 57 70 68 62C64 76 55 84 44 91C68 84 82 65 84 42C88 31 93 25 98 21C86 22 78 29 73 39C65 28 43 19 12 13Z" fill="#c5a56c"/></svg><b>BESORA</b></a><nav class="nav"><a href="#home">Home</a><a href="#services">Services</a><a href="#approach">Our Approach</a><a href="#about">About</a><a href="portfolio.html">Portfolio</a><a class="cta" href="#contact">Book a Call ↗</a></nav></header>
 <main>
-<section class="hero" id="home"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salem_Oregon_aerial.jpg?width=2000" alt="Contemporary luxury home with expansive glass architecture"><div class="wrap"><div class="hero-content"><div class="eyebrow">A sharper approach to growth</div><div class="season-tag"><span aria-hidden="true">✦</span> The fall edition <span aria-hidden="true">✦</span></div><h1>Make your business impossible to ignore.</h1><p>Thoughtful strategy. Distinctive creative. Marketing designed to put your business in front of the right people—with a little more warmth, color, and personality.</p><a class="button" href="#services">Explore what we do <span>↗</span></a></div></div><div class="leaf-shower" aria-hidden="true"><span>🍁</span><span>🍂</span><span>🍃</span><span>🍁</span><span>🍂</span><span>🍃</span></div><div class="turkey-buddy" aria-hidden="true"><div class="turkey-note">Gobble up<br>good ideas!</div><svg viewBox="0 0 180 190" role="presentation"><g class="tail-feathers"><path d="M62 82C20 86 13 48 27 31c23 2 39 19 43 45Z" fill="#c9442d" stroke="#6b2b20" stroke-width="3"/><path d="M72 75C48 43 64 15 84 10c18 14 20 37 8 66Z" fill="#ed9a35" stroke="#6b2b20" stroke-width="3"/><path d="M82 77C76 38 101 20 122 23c13 20 6 43-14 62Z" fill="#f2c75e" stroke="#6b2b20" stroke-width="3"/><path d="M94 85c10-36 39-42 57-29 5 24-9 42-39 50Z" fill="#9d5033" stroke="#6b2b20" stroke-width="3"/></g><ellipse cx="89" cy="122" rx="39" ry="48" fill="#a95736" stroke="#6b2b20" stroke-width="4"/><ellipse cx="89" cy="140" rx="25" ry="27" fill="#f6dba3"/><circle cx="89" cy="72" r="28" fill="#a95736" stroke="#6b2b20" stroke-width="4"/><circle cx="80" cy="69" r="4" fill="#2d211b"/><circle cx="98" cy="69" r="4" fill="#2d211b"/><path d="m85 78 7 2-7 8-6-8Z" fill="#f0a32c" stroke="#9b5225" stroke-width="2"/><path d="M107 78c9 5 8 14 2 18-8 1-10-6-7-11Z" fill="#d64c3c"/><path d="m72 165-5 13m27-13 5 13m-33 0h12m15 0h12" fill="none" stroke="#e99b32" stroke-width="5" stroke-linecap="round"/><path d="m62 103-16 11 18 6m48-16 15 11-17 6" fill="#a95736" stroke="#6b2b20" stroke-width="3" stroke-linejoin="round"/></svg></div><div class="side-note">Strategy · Visibility · Growth</div></section>
-<div class="harvest-ribbon" aria-label="Fresh ideas for a standout season"><span>FRESH IDEAS</span><b>✳</b><span>BOLD MOVES</span><b>✳</b><span>GOOD GROWTH</span><b>✳</b><span>FRESH IDEAS</span></div><section class="intro" id="about"><div class="wrap intro-grid"><div><div class="label">01 / The BESORA perspective <span aria-hidden="true">✦</span></div><h2>Good businesses deserve to be seen.</h2></div><div><p class="copy">Proudly based in Salem, Oregon, BESORA Media is here to help good small businesses get noticed, reach the people who need what they offer, and grow with confidence. We believe hardworking local businesses deserve marketing that reflects the quality of what they do. <strong>Through thoughtful strategy and creative execution</strong>, we help turn that potential into real momentum.</p><figure class="intro-figure"><img class="intro-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Riverfront_Park_View_-_Flickr_-_docoverachiever.jpg?width=1600" alt="Salem’s Center and Marion Street bridges crossing the Willamette River as morning fog clears"><figcaption>Riverfront Park, Salem, Oregon · Photo by Sheila Sund · <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener">CC BY 2.0</a></figcaption></figure></div></div></section>
+<section class="hero" id="home"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salem_Oregon_aerial.jpg?width=2000" alt="Contemporary luxury home with expansive glass architecture"><div class="wrap"><div class="hero-content"><div class="eyebrow">A sharper approach to growth</div><div class="season-tag"><span aria-hidden="true">✦</span> The Christmas edition <span aria-hidden="true">✦</span></div><h1>Make your business impossible to ignore.</h1><p>Thoughtful strategy. Distinctive creative. Marketing designed to put your business in front of the right people—with a little more warmth, color, and personality.</p><a class="button" href="#services">Explore what we do <span>↗</span></a></div></div><div class="leaf-shower snowfall" aria-hidden="true"><span>❄</span><span>❅</span><span>❆</span><span>❄</span><span>❅</span><span>❆</span><span>✧</span><span>❄</span></div><div class="santa-buddy" aria-hidden="true"><span class="santa-note">Season’s<br>greetings!</span><span class="santa-face">🎅</span></div><div class="side-note">Strategy · Visibility · Growth</div></section>
+<div class="harvest-ribbon christmas-ribbon" aria-label="Season’s greetings from BESORA"><span>MERRY & BRIGHT</span><b>✦</b><span>THOUGHTFUL GROWTH</span><b>✦</b><span>SEASON’S GREETINGS</span><b>✦</b><span>MERRY & BRIGHT</span></div><section class="intro" id="about"><div class="wrap intro-grid"><div><div class="label">01 / The BESORA perspective <span aria-hidden="true">✦</span></div><h2>Good businesses deserve to be seen.</h2></div><div><p class="copy">Proudly based in Salem, Oregon, BESORA Media is here to help good small businesses get noticed, reach the people who need what they offer, and grow with confidence. We believe hardworking local businesses deserve marketing that reflects the quality of what they do. <strong>Through thoughtful strategy and creative execution</strong>, we help turn that potential into real momentum.</p><figure class="intro-figure"><img class="intro-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Riverfront_Park_View_-_Flickr_-_docoverachiever.jpg?width=1600" alt="Salem’s Center and Marion Street bridges crossing the Willamette River as morning fog clears"><figcaption>Riverfront Park, Salem, Oregon · Photo by Sheila Sund · <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener">CC BY 2.0</a></figcaption></figure></div></div></section>
 <section class="services" id="services"><div class="wrap"><div class="services-head"><div><div class="label">02 / What we do</div><h2 class="heading">A considered approach.<br>A stronger presence.</h2></div><p class="services-intro">The pieces of your marketing should work together—not compete for attention. We help bring them into focus.</p></div><div class="grid">
 <article class="service"><div class="num">01</div><h3>Digital Advertising</h3><p>Reach the right audience with campaigns built around clear goals and thoughtful execution.</p></article>
 <article class="service"><div class="num">02</div><h3>Brand Development</h3><p>Create a consistent, memorable presence that reflects the value of your business.</p></article>
